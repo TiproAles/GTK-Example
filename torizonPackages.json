@@ -1,0 +1,14 @@
+{
+    "deps": [
+        "libgtk-3-0",
+        "libgtk-3-dev",
+        "alsa-utils",
+        "fonts-liberation"
+    ],
+    "devDeps": [
+        "libgtk-3-0",
+        "libgtk-3-dev",
+        "alsa-utils",
+        "fonts-liberation"       
+    ]
+}

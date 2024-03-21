@@ -1,0 +1,26 @@
+services:
+  console-demo:
+    device_cgroup_rules:
+    - c 4:0 rmw
+    - c 4:1 rmw
+    - c 4:7 rmw
+    - c 13:* rmw
+    - c 116:* rmw
+    - c 226:* rmw
+    image: tipro/console-demo:test
+    volumes:
+    - source: /tmp
+      type: bind
+      target: /tmp
+    - source: /dev
+      type: bind
+      target: /dev
+    - source: /run/udev
+      type: bind
+      target: /run/udev
+    - source: /var/run/dbus
+      type: bind
+      target: /var/run/dbus
+    cap_add:
+    - CAP_SYS_TTY_CONFIG
+version: "3.9"
