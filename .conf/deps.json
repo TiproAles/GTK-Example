@@ -5,6 +5,8 @@
         "build-essential",
         "make",
         "gdb",
-        "g++"
+        "g++",
+        "libgtk-3-0",
+        "libgtk-3-dev"
     ]
 }
