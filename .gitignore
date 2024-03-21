@@ -81,5 +81,9 @@ dkms.conf
 credentials.zip
 *.lock.yml
 
+# output directories
+/build-arm
+/build-local
+
 .conf/.depok
 .conf/.docok
