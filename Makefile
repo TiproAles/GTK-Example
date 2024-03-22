@@ -15,7 +15,7 @@ SRC_PATH := src
 DBG_PATH := build-$(ARCH)/debug
 
 # compile macros
-TARGET_NAME := ConsoleDemo
+TARGET_NAME := GTK-Example
 TARGET := $(BIN_PATH)/$(TARGET_NAME)
 TARGET_DEBUG := $(DBG_PATH)/$(TARGET_NAME)
 
