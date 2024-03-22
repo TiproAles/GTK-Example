@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "ConsoleDemo",
+            "name": "GTK-Example",
             "includePath": [
                 "${workspaceFolder}/includes/**",
                 "/usr/include/gtk-3.0",

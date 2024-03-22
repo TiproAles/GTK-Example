@@ -595,7 +595,7 @@
                     "DOCKER_TAG": "${command:docker_tag}",
                     "TCB_CLIENTID": "${command:tcb.clientId}",
                     "TCB_CLIENTSECRET": "${command:tcb.clientSecret}",
-                    "TCB_PACKAGE": "ConsoleDemo",
+                    "TCB_PACKAGE": "GTK-Example",
                     "TCB_FLEET": "${command:tcb.fleetName}",
                     "TORIZON_ARCH": "${command:torizon_arch}"
                 }
@@ -647,7 +647,7 @@
                 "update",
                 "fleet",
                 "latest",
-                "ConsoleDemo",
+                "GTK-Example",
                 "${command:tcb.fleetName}"
             ],
             "problemMatcher": [
@@ -671,7 +671,7 @@
                     "DOCKER_PSSWD": "${command:docker_password}",
                     "DOCKER_LOGIN": "${command:docker_login}",
                     "DOCKER_REGISTRY": "${command:docker_registry}",
-                    "VSCODE_CMD": "--verbose platform push --credentials credentials.zip --package-name ConsoleDemo --package-version ${command:tcb.getNextPackageVersion} --login-to $DOCKER_REGISTRY $DOCKER_LOGIN $DOCKER_PSSWD --canonicalize docker-compose.prod.yml"
+                    "VSCODE_CMD": "--verbose platform push --credentials credentials.zip --package-name GTK-Example --package-version ${command:tcb.getNextPackageVersion} --login-to $DOCKER_REGISTRY $DOCKER_LOGIN $DOCKER_PSSWD --canonicalize docker-compose.prod.yml"
                 }
             },
             "args": [
@@ -2323,7 +2323,7 @@
                     "DOCKER_TAG": "${command:docker_tag}",
                     "TCB_CLIENTID": "${command:tcb.clientId}",
                     "TCB_CLIENTSECRET": "${command:tcb.clientSecret}",
-                    "TCB_PACKAGE": "ConsoleDemo",
+                    "TCB_PACKAGE": "GTK-Example",
                     "TCB_FLEET": "${command:tcb.fleetName}",
                     "TORIZON_ARCH": "${command:torizon_arch}"
                 }

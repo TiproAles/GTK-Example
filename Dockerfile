@@ -82,8 +82,6 @@ COPY --from=Build ${APP_ROOT}/build-${IMAGE_ARCH}/bin ${APP_ROOT}
 # "cd" (enter) into the APP_ROOT directory
 WORKDIR ${APP_ROOT}
 
-# Command executed in runtime when the container starts
-#CMD ["./ConsoleDemo"]
 # ENTRYPOINT is used for starting weston so we need to use some trick
 COPY release-entry.sh /usr/bin/release-entry.sh
 RUN ["chmod", "+x", "/usr/bin/release-entry.sh"]
