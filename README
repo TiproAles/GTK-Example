@@ -1,3 +1,0 @@
-This example is based on Torizon IDE Extension "C++ Makefile Console" template.
-It is adjusted to provide a simple GTK+3 development environment that you can use to get started developing user interface on the BeFREE03 module.
-You can run and debug the example on the BeFREE03 module as well as locally on the windows machine (WSL2).
